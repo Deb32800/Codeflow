@@ -1,0 +1,36 @@
+{
+  "name": "codeflow",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AI-powered code analysis and visualization tool. Upload a ZIP archive to generate interactive flowcharts, documentation, and architectural diagrams using Gemini AI.",
+  "type": "module",
+  "author": "Deb32800",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Deb32800/Codeflow.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "react-dom": "^19.2.1",
+    "react": "^19.2.1",
+    "lucide-react": "^0.556.0",
+    "@google/genai": "^1.31.0",
+    "reactflow": "^11.11.4",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.3.0",
+    "dagre": "^0.8.5",
+    "framer-motion": "^11.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

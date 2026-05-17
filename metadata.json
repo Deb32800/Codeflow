@@ -1,0 +1,6 @@
+{
+  "name": "CODEflow",
+  "description": "Analyze your codebase instantly with Gemini AI. Visualize complex logic and architecture from ZIP archives using interactive, animated flowcharts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
